@@ -1,0 +1,77 @@
+body{
+  background: #6abbff;
+  color: white;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.set-div{
+  padding: 10px;
+  background:#212843 ;
+  height: 40vh;
+  width: 80vh;
+  display: flex;
+  flex-direction: row ;
+  border-radius: 30px;
+}
+.score-div{
+  height: 40vh;
+  width: 80vh; 
+  background:#212843 ;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+}
+.score-div-button{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.score-div-button button{
+  margin: 0px 20px;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  background: #212843 ;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid #6abbff;
+
+}
+.score-div-button button:hover{
+  background: gray;
+}
+.question-div{
+  width: 50%;
+}
+.answer-div{
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.question-div span{
+  font-size: large;
+}
+.answer-div button{
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  background: #212843 ;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid #6abbff;
+}
+.answer-div button:hover{
+  background: gray ;
+}

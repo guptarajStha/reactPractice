@@ -1,0 +1,16 @@
+.App{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 50vw;
+    padding: 8px 15px;
+    margin-left: 4px;
+}
+input:focus{
+    outline: 0;
+    border: 2px solid rgb(32, 32, 163);
+}
